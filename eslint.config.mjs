@@ -18,6 +18,7 @@ const eslintConfig = [
       "out/**",
       "build/**",
       "next-env.d.ts",
+      "app/generated/**",
     ],
      rules: {
       "@typescript-eslint/no-explicit-any": "off", // ✅ permite usar 'any'
