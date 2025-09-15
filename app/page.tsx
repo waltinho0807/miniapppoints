@@ -27,7 +27,7 @@ export default function Home () {
       const initDataUnsafe = tg.initDataUnsafe || {}
 
       if(initDataUnsafe.user) {
-        fetch('api/user', {
+        fetch('/api/user', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
