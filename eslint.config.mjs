@@ -19,6 +19,11 @@ const eslintConfig = [
       "build/**",
       "next-env.d.ts",
     ],
+     rules: {
+      "@typescript-eslint/no-explicit-any": "off", // ✅ permite usar 'any'
+      "@typescript-eslint/no-require-imports": "error", // mantém a regra de proibir require()
+      "@typescript-eslint/no-throw-literal": "warn", // exemplo de outra regra
+    },
   },
 ];
 
